@@ -1,7 +1,7 @@
 import discord.py
 from discord.ext import commands
 
-TOKEN = 'NzQ1MjI0NTU5Njk0OTcwOTAz.XzuqdA.FkrKNJjXyN3Pn4-0Hqy_81OQdxU'
+TOKEN = 'YOUR BOT TOKEN'
 client=commands.Bot(command_prefix='.')
 
 players={}
@@ -29,5 +29,5 @@ async def play(ctx, url):
     players[server.id] = player
     player.start90
 
-client.run(NzQ1MjI0NTU5Njk0OTcwOTAz.XzuqdA.FkrKNJjXyN3Pn4-0Hqy_81OQdxU)
+client.run(BOT RUN)
 
